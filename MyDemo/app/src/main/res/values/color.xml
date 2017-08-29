@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="swipe_color1">#7ece22</color>
+    <color name="swipe_color2">#53c6ff</color>
+    <color name="swipe_color3">#ff805c</color>
+    <color name="swipe_color4">#3f6711</color>
+    <color name="normal_green">#7ece22</color>
+    <color name="font_white">#fff</color>
+    <color name="bg_main">#f4f4f4</color>
+</resources>

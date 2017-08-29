@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <com.example.zhangxiaoyu01.mydemo.View.RoundImageViewByXfermode
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_sun" >
+        </com.example.zhangxiaoyu01.mydemo.View.RoundImageViewByXfermode>
+
+        <com.example.zhangxiaoyu01.mydemo.View.RoundImageViewByXfermode
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_sun"
+            zhy:borderRadius="30dp"
+            zhy:type="round" >
+        </com.example.zhangxiaoyu01.mydemo.View.RoundImageViewByXfermode>
+
+        <com.example.zhangxiaoyu01.mydemo.View.RoundImageViewByXfermode
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_sun"
+            zhy:type="circle" >
+        </com.example.zhangxiaoyu01.mydemo.View.RoundImageViewByXfermode>
+
+        <com.example.zhangxiaoyu01.mydemo.View.RoundImageViewByXfermode
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_sun"
+            zhy:type="circle" >
+        </com.example.zhangxiaoyu01.mydemo.View.RoundImageViewByXfermode>
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+</ScrollView>

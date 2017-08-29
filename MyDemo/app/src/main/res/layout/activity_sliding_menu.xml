@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@mipmap/img_frame_background">
+
+    <com.example.zhangxiaoyu01.mydemo.View.SlidingMenu
+        android:id="@+id/sliding_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rightPadding="50dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/left_menu"/>
+            <LinearLayout
+                android:background="@mipmap/qq"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="切换菜单"
+                    android:textColor="#ffffff"
+                    android:onClick="onToggle"
+                    android:background="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </com.example.zhangxiaoyu01.mydemo.View.SlidingMenu>
+
+
+</LinearLayout>

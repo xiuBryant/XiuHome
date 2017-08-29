@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="IndicatorDefault">
+        <attr name="mVisibleTabCount" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPadding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgressbarWithProgress">
+        <attr name="progress_unreach_color" format="color"/>
+        <attr name="progress_unreach_height" format="dimension"/>
+        <attr name="progress_reach_color" format="color"/>
+        <attr name="progress_reach_height" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_offset" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressbarWithProgress">
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ParallaxView">
+        <attr name="speed" format="dimension" />
+        <attr name="src" format="reference" />
+        <attr name="sceneLength" format="integer" />
+        <attr name="randomness" format="reference" />
+        <attr name="initialState" format="enum">
+            <enum name="started" value="0" />
+            <enum name="stopped" value="1" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="RoundImageViewByXfermode">
+        <attr name="borderRadius" format="dimension"></attr>
+        <attr name="type" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="round" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

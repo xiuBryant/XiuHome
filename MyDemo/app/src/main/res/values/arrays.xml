@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="random_imgs">
+        <item>@mipmap/icon_shan</item>
+    </array>
+
+    <array name="random_imgs_1">
+        <item>@mipmap/icon_shu</item>
+    </array>
+
+    <!--<integer-array name="randomness">-->
+        <!--<item>1</item>-->
+    <!--</integer-array>-->
+</resources>
